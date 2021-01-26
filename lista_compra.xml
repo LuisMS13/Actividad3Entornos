@@ -6,7 +6,10 @@
     </comida>
     <ropa>
         <camisetas>
-            <marca>element, vans</marca>
+            <marca>Element, Vans</marca>
         </camisetas>
+        <pantalones>
+            <marca>Easy wear, Billabong</marca>
+        </pantalones>
     </ropa>
 </compra>
