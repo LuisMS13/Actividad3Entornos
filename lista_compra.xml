@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compra>
+    <comida>
+        <lacteos>leche, queso</lacteos>
+        <carne>pavo, pollo</carne>
+    </comida>
+    <ropa>
+        <camisetas>
+            <marca>element, vans</marca>
+        </camisetas>
+    </ropa>
+</compra>
