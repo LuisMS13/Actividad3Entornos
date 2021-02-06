@@ -33,6 +33,6 @@ public class Videojuego {
 	
 	@Override
 	public String toString() {
-		return "Videojuego [id=" + id + ", nombre=" + nombre + ", compania=" + compania + "]";
+		return "id: " + id + "\nnombre: " + nombre + "\ncompania: " + compania;
 	}
 }

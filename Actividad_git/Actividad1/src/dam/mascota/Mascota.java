@@ -31,6 +31,6 @@ public class Mascota {
 	}
 	@Override
 	public String toString() {
-		return "Mascota [id=" + id + ", nombre=" + nombre + ", color=" + color + "]";
+		return "id: " + id + "\nnombre: " + nombre + "\ncolor: " + color;
 	}
 }
