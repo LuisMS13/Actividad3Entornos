@@ -1,6 +1,7 @@
 package dam.videojuegos;
 
 public class Videojuego {
+	
 	private String id;
 	private String nombre;
 	private String compania;
@@ -22,5 +23,10 @@ public class Videojuego {
 	}
 	public void setCompania(String compania) {
 		this.compania = compania;
+	}
+	
+	@Override
+	public String toString() {
+		return "Videojuego [id=" + id + ", nombre=" + nombre + ", compania=" + compania + "]";
 	}
 }
