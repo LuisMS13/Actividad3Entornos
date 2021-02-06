@@ -6,6 +6,12 @@ public class Videojuego {
 	private String nombre;
 	private String compania;
 	
+	public Videojuego(String id, String nombre, String compania) {
+		this.id = id;
+		this.nombre = nombre;
+		this.compania = compania;
+	}
+	
 	public String getId() {
 		return id;
 	}

@@ -4,6 +4,13 @@ public class Mascota {
 	private String id;
 	private String nombre;
 	private String color;
+	
+	public Mascota(String id, String nombre, String color) {
+		this.id = id;
+		this.nombre = nombre;
+		this.color = color;
+	}
+	
 	public String getId() {
 		return id;
 	}
