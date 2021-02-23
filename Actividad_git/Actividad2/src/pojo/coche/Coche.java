@@ -6,7 +6,25 @@ public class Coche {
 	private String matriucla;
 	private String modelo;
 	private String marca;
+	private int año_fabricacion;
 	
+	public Coche(String id, String matriucla, String modelo, String marca, int año_fabricacion) {
+		super();
+		this.id = id;
+		this.matriucla = matriucla;
+		this.modelo = modelo;
+		this.marca = marca;
+		this.año_fabricacion = año_fabricacion;
+	}
+	
+	public int getAño_fabricacion() {
+		return año_fabricacion;
+	}
+
+	public void setAño_fabricacion(int año_fabricacion) {
+		this.año_fabricacion = año_fabricacion;
+	}
+
 	public String getId() {
 		return id;
 	}

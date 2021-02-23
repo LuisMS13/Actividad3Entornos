@@ -5,13 +5,26 @@ public class Videojuego {
 	private String id;
 	private String nombre;
 	private String compania;
+	private int precio;
 	
-	public Videojuego(String id, String nombre, String compania) {
+	public Videojuego(String id, String nombre, String compania, int precio) {
 		this.id = id;
 		this.nombre = nombre;
 		this.compania = compania;
+		this.precio = precio;
 	}
 	
+	
+	public int getPrecio() {
+		return precio;
+	}
+
+
+	public void setPrecio(int precio) {
+		this.precio = precio;
+	}
+
+
 	public String getId() {
 		return id;
 	}
